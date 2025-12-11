@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .contact{
+            justify-content: left;
+            display: flex;
+            width: 49%;
+        }
+        .map{
+            justify-content: right;
+            display: flex;
+            width: 49%;
+        }
+    </style>
+</head>
+<body>
+    <div class="contact">
+        
+        <form action="">
+            <h1 style="text-align: center;">Contact Us</h1>
+            <label for="name">Enter Your Name: </label>
+            <input type="text" id="name" name="name" placeholder="Enter Your Name !!"> <br><br>
+            <label for="Email">Enter Your Email: </label>
+            <input type="text" id="Email" name="Email" placeholder="Enter Your Email !!"><br><br>
+            <Label>Select yoour Gender</Label><br>
+            <b>Male</b> &nbsp;<input type="radio" name="Gender" value="male">
+            <b>Female</b>&nbsp;<input type="radio" name="Gender" value="female">
+            <b>Other</b>&nbsp;<input type="radio" name="Gender" value="other"><br>
+            Please Select Your Annual Income <input type="range" name="Income" min="100000" max="1000000"><br>
+            Please Select Quantity <input type="number" name="quantity" min="1" max="10"><br>
+            <label for="Comment">Please Provide us Feedback </label><br>
+            <textarea name="Comment" id="Comment" ></textarea> <br>
+            <button style="justify-content: center;">Submit</button>
+        </form>
+    </div>
+    <div class="Map">
+            <h1>Here Is Our Map Location </h1>
+    </div>
+</body>
+</html>
