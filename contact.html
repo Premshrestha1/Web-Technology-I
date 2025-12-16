@@ -5,20 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .contact{
-            justify-content: left;
-            display: flex;
+        .containner {
+            display: flex;     
+            justify-content: space-between; 
+            gap: 20px;          
+            padding: 20px;
+        }
+        .contact {
             width: 49%;
         }
-        .map{
-            justify-content: right;
-            display: flex;
+
+        .map {
             width: 49%;
+            display: flex;
+            align-items: center;  
+            justify-content: center; 
+            border: 1px solid #ccc; 
+            height: 400px;    
         }
     </style>
 </head>
 <body>
-    <div class="contact">
+    <div class="containner">
+        <div class="contact" style="align-items: center  ; justify-content: center;">
         
         <form action="">
             <h1 style="text-align: center;">Contact Us</h1>
@@ -38,7 +47,9 @@
         </form>
     </div>
     <div class="Map">
-            <h1>Here Is Our Map Location </h1>
+            <h1 style="text-align: center;">Here is Our Map</h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14138.52060137726!2d85.49724484436561!3d27.635969093140254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb0f68c0cc0ce7%3A0xef6732862662854a!2sMama&#39;s%20Cafe!5e0!3m2!1sen!2snp!4v1765764507766!5m2!1sen!2snp" width="500" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
+</div>..
 </body>
 </html>
