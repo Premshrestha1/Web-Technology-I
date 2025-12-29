@@ -1,1 +1,16 @@
-*.mp4
+<html>
+    <head>
+        <tiltle>
+            index
+        </tiltle>
+    </head>
+    <body>
+        <h1><b>
+            Hello world!
+            </b>
+        </h1>
+        <p><b><i> Welcome to the first step towards learning html</i></b>
+           
+        </p>
+    </body>
+</html>
